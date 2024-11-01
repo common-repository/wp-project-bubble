@@ -1,0 +1,61 @@
+@import 'reset.css';
+@import 'formalize.css';
+
+/* `Errors
+----------------------------------------------------------------------------------------------------*/
+
+label.error {
+  background: #ffc;
+  color: #c00;
+  font-style: italic;
+}
+
+input.error,
+select.error,
+textarea.error {
+  background-color: #fee;
+}
+
+/* `Table Layout
+----------------------------------------------------------------------------------------------------*/
+
+.horiz {
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.horiz td {
+  padding: 20px 0 0 20px;
+}
+
+/* `Other
+----------------------------------------------------------------------------------------------------*/
+
+div#pb-form-title {
+	font-size: 22px;
+	margin-bottom: 22px;
+}
+
+.entry-content div#pb-form td {
+	border: none;
+}
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
+}
+
+ul.pb-form-error {
+	background-color: #FFEBE8;
+	border: 1px solid #C00;
+	padding: 0.6em 0.6em 0.6em 2em;
+	list-style: disc;
+}
+.pb-form-update {
+	background-color: lightYellow;
+	border: 1px solid #E6DB55;
+	padding: 0.6em;
+}
